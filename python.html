@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <title>Nav bar</title>
+    <script src="https://kit.fontawesome.com/07ea6fb87d.js"
+    crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+
+      <div class="navbar_logo">
+        <i class="fab fa-blogger-b"></i>
+          <a herf="">dreamcoding</a>
+        </div>
+
+
+      <ul class="navbar_menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="1.html">Gallery</a></li>
+        <li><a href="2.html">Weddings</a></li>
+        <li><a href=http://www.bugs.ac.kr target="_blank" title="백석신대원">백석신대</a></li>
+        <li><a href=http://bctl.bu.ac.kr target="_blank" title="백석신대원">사이버강의</a></li>
+        </ul>
+
+        <ul class="navbar_icons">
+          <li><i class="fab fa-facebook-square"></i></li>
+          <li> <i class="fab fa-twitter-square"></i></li>
+        </ul>
+        <a href="#" class="navbar_toggleBtn">
+        <i class="fas fa-bars"></i>
+        </a>
+            </nav>
+      <div>
+        project
+
+        서비스명 또는 서비스 자체를 말한다. 프로젝트를 만들면 기본 폴더 및 파일이 생성된다.
+
+        app
+
+        웹 서비스에 추가되는 기능을 말한다. 블로그, 게시판, 설문 등이 될 수 있다. 앱을 만들면 앱 이름으로 된 폴더에 기본 파일들이 생성된다.
+
+        model (models.py)
+
+        app을 만들면 해당 폴더 안에 models.py 파일이 생성됩니다. 파일에서 코드를 통해 모델(데이터)의 구조를 결정하고 관리할 수 있다. 질문에 대한 답변을 받는 설문 기능을 추가한다고 했을 때 질문, 답변 두 가지 데이터(표와 같은 형식)를 만들 수 있다. 질문에는 질문, 응답 날짜가 있을 수 있고, 답변에는 질문 번호, 답변, 답변 횟수 등과 같은 항목을 만들 수 있다.
+
+        장고의 핵심 기능중 하나인 ORM과 관련되어 있는 파일인데, 단순하게는 데이터 베이스의 테이블을 정의하는 파일이다.
+
+        view (view.py)
+
+        app을 만들면 해당 폴더 안에 views.py 파일이 생성된다. 데이터를 어떻게 보여주고 처리할 것인지에 대한 로직을 짤 수 있다. 주로 클래스 안에 http 메소드 함수를 포함하고 있다. 또한 가장많은 python 코드를 치게 될 곳이다.
+
+        template
+
+        데이터의 구현 부분이다. 파일의 구조나 레이아웃을 정의하고, 실제로 html파일로 구현되는 경우가 많다.
+
+        controller
+
+        일반적인 MVC패턴에서 장고 view의 역할을 하는 영역이다.
+
+        wsgi
+
+        Web Server Gateway Interface의 약자로 웹서버 - 웹애플리케이션 사이 통신에 대한 사양을 정의한다. 웹서버와 장고를 적절하게 결합시켜주는 역할을 한다.
+
+        asgi
+
+        Asynchronous Server Gateway Interface의 약자로 wsgi가 동기식이라면 asgi는 동기, 비동기식 모두를 지원한다.
+
+        settings.py
+
+        전체 프로젝트를 관리하는 설정이 담겨있는 파일이다.
+
+        manage.py
+
+        runserver를 할때 사용하는 실행 파일이다.
+
+        migrations 디렉토리
+
+        models.py에 정의한 테이블 구조를 manage.py의 makemigrations 옵션을 통해 생성되는 파일이 저장되는 디렉토리
+
+        urls.py
+
+        url 경로에 대한 부분이다. url에서 특정 경로로 가기위해 설정하는 것이다.
+
+  </body>
+</html
