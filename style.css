@@ -46,8 +46,11 @@ border-radius: 4px}
   color:white;
   padding-left: 0;
 
-
 }
+contents_a{
+  padding : 100px 100px}
+
+
 .navbar_icons li{
   padding : 8px 5px;
 }
@@ -61,8 +64,7 @@ border-radius: 4px}
   color: #d49466
 }
 
-contentsa{
-  padding : 100px 100px}
+
 
 @media screen and (max-width:768px){
   .navbar{
