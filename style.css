@@ -36,6 +36,12 @@ a{
   color : white;
 }
 
+
+.navbar_menu a {
+  padding : 5px 5px;
+  color : white;
+}
+
 .navbar_menu li {
   padding : 5px 5px;
   color : white;
@@ -55,6 +61,10 @@ color:white}
 .contents_a{
   padding : 10px 10px;
   color: black}
+
+  .contents_a a{
+    padding : 10px 10px;
+    color: black}
 
 
 .navbar_icons li{
