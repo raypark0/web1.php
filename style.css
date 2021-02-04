@@ -62,7 +62,11 @@ color:white}
   padding : 10px 10px;
   color: black}
 
-  .contents_a a{
+.contents_a a :hover{background-color: #d49466;
+  border-radius: 4px;
+  color:white}
+
+.contents_a a{
     padding : 10px 10px;
     color: black}
 
