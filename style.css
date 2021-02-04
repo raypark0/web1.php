@@ -5,7 +5,7 @@ body{
 
 a{
   text-decoration: none;
-  
+
 }
 .navbar{
   display: flex;
@@ -36,10 +36,12 @@ a{
 
 .navbar_menu li {
   padding : 5px 5px;
+  color : white;
 }
 
 .navbar_menu li:hover{background-color: #d49466;
 border-radius: 4px}
+
 .navbar_icons{
   list-style: none;
   display: flex;
